@@ -1,0 +1,29 @@
+.cont-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vh;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: aquamarine;
+    height: 50px;
+    width: calc(10% - 10px);
+    margin: 5px;
+}
+
+.clicked-box {
+    background-color: rebeccapurple;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+}
